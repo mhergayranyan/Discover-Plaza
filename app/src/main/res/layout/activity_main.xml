@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Bottom navigation container -->
+    <LinearLayout
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#F5F5F5">
+
+        <!-- Icons -->
+        <ImageView
+            android:id="@+id/icon1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon1"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon2"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/icon3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon3"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/icon4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon4"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/icon5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon5"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</RelativeLayout>
